@@ -1,0 +1,42 @@
+two types of Export/Import
+
+
+- Default Eport/Import
+ 
+  export default components
+  import component from "Path";
+
+
+  # react hooks
+
+  there are two very imp hooks
+  - useState() = superpowerful state variable in react
+  - useEffects()
+
+  why react is faster 
+  -  reacttfiber = reconsilation which finds out the diff btw two virtual dom 
+
+  # Redux toolkit
+  - intall @reduxjs/toolkit and react-redux
+  - build our own store
+  - connect our store to app
+  - create slice(cardslice)
+  - dispatch(action)
+  - selector
+
+  # types of testing
+  - Unit testing 
+  - Integration testing
+  - End to End testing/ e2e testing
+
+  # setting up testing in our app
+  - Install react testing library
+  - Installed jest
+  - Installed Babel dependencies
+  - configure Babel
+  - configure Parcel config file to disable default babel transpilation
+  - jest - npx jest --init
+  - Install jsdom library 
+  - Install @babel/preset-react - to make jsx work in test cases
+  - Include @babel/preset-react inside my babel config 
+  - npm i -D @testing-library/jest-dom
